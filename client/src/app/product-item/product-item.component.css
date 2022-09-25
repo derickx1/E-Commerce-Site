@@ -1,0 +1,80 @@
+.product-img {
+    margin: 20px auto 0 auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.product-name {
+    font-size: 1.5rem;
+    padding-top: 10px;
+    padding-bottom: 1rem;
+    text-align: center;
+    color: goldenrod;
+}
+
+.product-price {
+    font-size: 1.25rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.container-type-material {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.observer {
+    display: block;
+}
+
+.container-review {
+    transition: linear all 0.2s;
+    position: relative;
+    z-index: 3;
+    margin: auto auto 10px -90px;
+    padding: 5px;
+}
+
+.review-icon {
+    transition: linear all 0.2s;
+    height: 24px;
+    width: 24px;
+    filter: invert(77%) sepia(87%) saturate(1460%) hue-rotate(345deg) brightness(90%) contrast(88%);
+    /* margin-left: 45px;  */
+}
+
+.review-icon:hover {
+    transition: linear all 0.2s;
+    /* transform: scale(1.1); */
+    transform: translateY(-5px);
+}
+
+.reviews {
+    color: goldenrod;
+}
+
+.wrapper-user-reviews {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+
+.single-review {
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.review-rating {
+    border: 1px solid goldenrod;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}

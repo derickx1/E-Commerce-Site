@@ -1,0 +1,21 @@
+<!-- for our pagination, leave as is -->
+<h3 *ngIf="iterator % 8 == 0 && iterator != 0" class="observer"></h3>
+
+<img *ngIf="product.imgURL" src="{{product.imgURL}}" alt="{{product.name}}-img" class="product-img">
+<h3 *ngIf="product.name" class="product-name">{{product.name}}</h3>
+<p *ngIf="product.price" class="product-price">${{product.price}}</p>
+<div class="container-type-material">
+    <p>{{product.type}}</p>
+    |
+    <p>{{product.material}}</p>
+</div>
+<div class="container-review">
+    <img src="/assets/images/products/message-solid.svg" alt="speech-icon" class="review-icon" (click)="seeReviews($event)" id="{{product.id}}">
+    <!-- <h4 class="reviews">Reviews</h4> -->
+    <div class="wrapper-user-reviews" *ngFor="let review of reviews">
+        <div class="single-review">
+            <p>{{review.content}}</p>
+            <p class="review-rating">{{review.rating}}</p>
+        </div>
+    </div>
+</div>

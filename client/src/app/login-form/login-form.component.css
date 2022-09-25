@@ -1,0 +1,85 @@
+button {
+    cursor: pointer;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+    padding-top: 15px;
+}
+
+.wrapper-label-input {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.form-login label {
+    transition: linear all 0.2s;
+    position: absolute;
+    background-color: white;
+    margin-top: 15px;
+    padding-right: 6px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    left: 130px;
+}
+
+.form-login .usernameLabelShift {
+    transition: linear all 0.1s;
+    margin-top: -10px;
+}
+
+.form-login .passwordLabelShift {
+    transition: linear all 0.1s;
+    margin-top: -10px;
+}
+
+.form-login input {
+    margin: auto;
+    width: 60%;
+    height: 2.5rem;
+    font-size: 1.25rem;
+    text-indent: 5px;
+    border: none; 
+    border-bottom: 1px solid black;
+}
+
+.form-login input:focus {
+    border: 1px solid black;
+    border-radius: 2px;
+    outline: none;
+}
+
+.form-login button {
+    border: none;
+    border-radius: 5px;
+    margin: auto;
+    font-size: 1.15rem;
+    padding: 10px;
+}
+
+.btn-sign-in {
+    transition: linear all 0.1s;
+    background-color: goldenrod;
+    color: white;
+}
+
+.btn-sign-in:hover {
+    transition: linear all 0.1s;
+    transform: scale(1.1);
+}
+
+.btn-sign-in:active {
+    transition: linear all 0.1s;
+    transform: scale(0.95);
+}
+
+.login-failed-message {
+    color: red;
+    text-align: center;
+    padding: 0.25rem auto;
+}

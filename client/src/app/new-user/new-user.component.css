@@ -1,0 +1,103 @@
+button {
+    cursor: pointer;
+}
+
+.user-creation-modal-background {
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgb(54, 54, 54, 0.9);
+    width: 100%;
+    height: 100%;
+}
+
+.user-creation-modal {
+    background-color: white;
+    width: 30%;
+    margin: 10rem auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px white;
+}
+
+.user-creation-modal img {
+    transition: linear all 0.2;
+    position: absolute;
+    background-color: transparent;
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+    margin-top: -250px;
+    margin-left: 420px;
+    filter: invert(77%) sepia(87%) saturate(1460%) hue-rotate(345deg) brightness(90%) contrast(88%);
+}
+
+.user-creation-modal h2 {
+    color: goldenrod;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.form-user-creation {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding-bottom: 2rem;
+}
+
+.form-user-creation input {
+    height: 2.15rem;
+    font-size: 1.25rem;
+    width: 50%;
+    margin: auto;
+    text-indent: 5px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.form-user-creation button {
+    transition: linear all 0.2s;
+    height: 2.15rem;
+    font-size: 1.15rem;
+    width: 5rem;
+    margin: auto;
+    border: none;
+    background-color: goldenrod;
+    color: white;
+    border-radius: 5px;
+}
+
+.form-user-creation button:hover {
+    transition: linear all 0.1s;
+    transform: scale(1.1);
+}
+
+.form-user-creation button:active {
+    transition: linear all 0.1s;
+    transform: scale(0.95);
+}
+
+.modal-hide {
+    display: none;
+}
+
+.modal-display {
+    display: block;
+}
+
+.hide-password-error {
+    display: none;
+}
+
+.display-password-error {
+    color: rgb(215, 10, 10);
+    display: block;
+}
+
+.form-user-creation input.error-password-input {
+    border: 1px solid red;
+}

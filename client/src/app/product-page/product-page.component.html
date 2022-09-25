@@ -1,0 +1,27 @@
+<div class="product-page-background">
+    <!-- logo, cart & account -->
+    <header class="container-navbar">
+        <h1>All That Glitters is Gold</h1>
+        <div class="container-cart-user">
+            <img src="/assets/images/products/cart-shopping-solid.svg" alt="cart" class="cart-icon" (click)="toggleCartModal()">
+            <span class="cart-count">{{cart.length}}</span>
+
+            <img src="/assets/images/products/user-solid.svg" alt="user-profile" class="user-icon" (click)="toggleProfileModal()">
+        </div>
+    </header>
+    <!-- display list of products -->
+    <main class="container-products">
+        <div *ngFor="let product of allProducts; index as i" class="container-single-product" (click)="addToCart(product)">
+            <app-product-item [product]="product" [iterator]="i" (displayMoreProducts)="displayMoreProducts()" [accessToken]="accessToken"></app-product-item>
+        </div>
+        <p class="product-fetch-error" [ngClass]="{'display-product-error' : productFetchError}">There was an error fetching our products. Please try again</p>
+    </main>
+    <!-- filters -->
+    <div class="filters-placement">
+        <app-filters [accessToken]="accessToken" (updatedProducts)="updateFilteredProducts($event)"></app-filters>
+    </div>
+    <!-- cart component -->
+    <app-cart [openModalCommand]="openModalCommand" [cart]="cart"></app-cart>
+    <!-- user profile modal -->
+    <app-user-profile [openProfileModalCommand]="openProfileModalCommand" [customer]="customer"></app-user-profile>
+</div>

@@ -1,0 +1,15 @@
+<section class="user-creation-modal-background" [ngClass]="{'modal-display ' : displayModal}" class="modal-hide user-creation-modal-background">
+    <div class="user-creation-modal">
+        <img src="/assets/images/login/x-solid.svg" alt="close-icon" (click)="toggleCreationModal()">
+        <h2>Create your account</h2>
+        <form class="form-user-creation" (submit)="createUserAccount($event)" [formGroup]="userCreationData">
+            <input type="text" placeholder="name" formControlName="name">
+            <input type="text" placeholder="shipping address" formControlName="shipping_address">
+            <input type="text" placeholder="username" formControlName="username">
+            <input type="password" placeholder="password" formControlName="password">
+            <input type="password" placeholder="re-type password" (change)="checkPasswordMatch()" formControlName="rePassword" [ngClass]="{'error-password-input' : displayPasswordError}">
+            <p [ngClass]="{'display-password-error' : displayPasswordError, 'hide-password-error' : !displayPasswordError}">Passwords do not match</p>
+            <button type="submit">{{createBtnText}}</button>
+        </form>
+    </div>
+</section>

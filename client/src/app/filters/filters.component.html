@@ -1,0 +1,23 @@
+<aside class="container-filters">
+    <ul class="container-type">
+        <h3>Type</h3>
+        <p (click)="activateFilter($event, 'type', 'Ring')" class="filter-option-type">Ring</p>
+        <p (click)="activateFilter($event, 'type','Necklace')" class="filter-option-type">Necklace</p>
+        <p (click)="activateFilter($event, 'type','Earing')" class="filter-option-type">Earring</p>
+        <p (click)="activateFilter($event, 'type','Accessory')" class="filter-option-type">Accessory</p>
+    </ul>
+    <ul class="container-material">
+        <h3>Material</h3>
+        <p (click)="activateFilter($event, 'material', 'Seastone')" class="filter-option-material">Seastone</p>
+        <p (click)="activateFilter($event, 'material', 'Diamond')" class="filter-option-material">Diamond</p>
+        <p (click)="activateFilter($event, 'material', 'Amber')" class="filter-option-material">Amber</p>
+        <p (click)="activateFilter($event, 'material', 'Silver')" class="filter-option-material">Silver</p>
+        <p (click)="activateFilter($event, 'material', 'Gold')" class="filter-option-material">Gold</p>
+        <p (click)="activateFilter($event, 'material', 'Metal')" class="filter-option-material">Metal</p>
+        <p (click)="activateFilter($event, 'material', 'Emerald')" class="filter-option-material">Emerald</p>
+        <p (click)="activateFilter($event, 'material', 'Ruby')" class="filter-option-material">Ruby</p>
+        <p (click)="activateFilter($event, 'material', 'Sapphire')" class="filter-option-material">Sapphire</p>
+        <p (click)="activateFilter($event, 'material', 'Amethyst')" class="filter-option-material">Amethyst</p>
+    </ul>
+    <button class="btn-reset" (click)="resetFilters()">Reset</button>
+</aside>

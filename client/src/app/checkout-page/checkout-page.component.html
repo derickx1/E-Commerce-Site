@@ -1,0 +1,28 @@
+<div class="checkout-page-background">
+    <main class="container-checkout">
+        <h1>Checkout</h1>
+        <div *ngFor="let cartItem of cart" class="line-item-single">
+            <p>{{cartItem.name}}</p>
+            <p>${{cartItem.price}}</p>
+        </div>
+        <div class="container-subtotal">
+            <h2>Subtotal:</h2>
+            <h2>${{cartPriceTotal}}</h2>
+        </div>
+        <button type="button" class="btn-purchase" (click)="makePurchase()">Purchase</button>
+        <button type="button" class="btn-cancel" (click)="cancelOrder()">Cancel</button>
+    </main>
+    <section class="confirmation-modal-background" [ngClass]="{'display-modal': confirmationModal}">
+        <div class="confirmation-modal">
+            <h3>Purchased!</h3>
+            <p>Enjoy your new accessories</p>
+            <div class="container-order-list">
+                <div *ngFor="let cartItem of cart" class="line-item-single">
+                    <p>{{cartItem.name}}</p>
+                    <p>${{cartItem.price}}</p>
+                </div>
+            </div>
+            <button type="button" (click)="continueShopping()">Continue Shopping</button>
+        </div>
+    </section>
+</div>

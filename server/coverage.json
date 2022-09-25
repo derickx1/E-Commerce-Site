@@ -1,0 +1,1735 @@
+{
+  "Project3.Data.dll": {
+    "C:\\Users\\Feihcetile\\Desktop\\Revature\\220705-UTA-NET\\Team7P2\\server\\Project3.Data\\SQLRepository.cs": {
+      "Project3.Data.SQLRepository": {
+        "System.Void Project3.Data.SQLRepository::.ctor(System.String,Microsoft.Extensions.Logging.ILogger`1<Project3.Data.SQLRepository>)": {
+          "Lines": {
+            "27": 12,
+            "28": 12,
+            "29": 12,
+            "30": 12,
+            "31": 12
+          },
+          "Branches": []
+        }
+      },
+      "Project3.Data.SQLRepository/<AddCustomer>d__11": {
+        "System.Void Project3.Data.SQLRepository/<AddCustomer>d__11::MoveNext()": {
+          "Lines": {
+            "255": 1,
+            "257": 1,
+            "258": 1,
+            "260": 1,
+            "261": 1,
+            "262": 1,
+            "263": 1,
+            "264": 1,
+            "266": 1,
+            "268": 1,
+            "269": 1,
+            "271": 1,
+            "272": 1,
+            "273": 1,
+            "274": 1,
+            "277": 1,
+            "278": 1,
+            "279": 1,
+            "280": 1,
+            "282": 1,
+            "284": 1,
+            "285": 1,
+            "286": 1,
+            "288": 1,
+            "290": 0,
+            "292": 0,
+            "293": 0
+          },
+          "Branches": [
+            {
+              "Line": 257,
+              "Offset": 48,
+              "EndOffset": 59,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 257,
+              "Offset": 48,
+              "EndOffset": 194,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            }
+          ]
+        }
+      },
+      "Project3.Data.SQLRepository/<AddReview>d__8": {
+        "System.Void Project3.Data.SQLRepository/<AddReview>d__8::MoveNext()": {
+          "Lines": {
+            "191": 1,
+            "192": 1,
+            "193": 1,
+            "195": 1,
+            "196": 1,
+            "197": 1,
+            "198": 1,
+            "200": 1,
+            "202": 1,
+            "203": 1,
+            "204": 1,
+            "205": 1,
+            "206": 1,
+            "208": 1,
+            "210": 0,
+            "212": 0,
+            "213": 0
+          },
+          "Branches": [
+            {
+              "Line": 192,
+              "Offset": 48,
+              "EndOffset": 59,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 192,
+              "Offset": 48,
+              "EndOffset": 194,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "Project3.Data.SQLRepository/<AddTransaction>d__17": {
+        "System.Void Project3.Data.SQLRepository/<AddTransaction>d__17::MoveNext()": {
+          "Lines": {
+            "429": 1,
+            "430": 1,
+            "431": 1,
+            "433": 1,
+            "434": 1,
+            "435": 1,
+            "436": 1,
+            "438": 1,
+            "440": 1,
+            "441": 1,
+            "442": 1,
+            "446": 1,
+            "448": 0,
+            "450": 0,
+            "451": 0
+          },
+          "Branches": [
+            {
+              "Line": 430,
+              "Offset": 48,
+              "EndOffset": 59,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 430,
+              "Offset": 48,
+              "EndOffset": 194,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "Project3.Data.SQLRepository/<GetCustomer>d__9": {
+        "System.Void Project3.Data.SQLRepository/<GetCustomer>d__9::MoveNext()": {
+          "Lines": {
+            "214": 1,
+            "215": 1,
+            "217": 1,
+            "218": 1,
+            "220": 1,
+            "222": 1,
+            "224": 1,
+            "226": 1,
+            "228": 2,
+            "229": 1,
+            "230": 1,
+            "231": 1,
+            "233": 1,
+            "235": 1,
+            "236": 1
+          },
+          "Branches": [
+            {
+              "Line": 228,
+              "Offset": 557,
+              "EndOffset": 389,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 228,
+              "Offset": 557,
+              "EndOffset": 562,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Project3.Data.SQLRepository/<GetCustomerReviews>d__7": {
+        "System.Void Project3.Data.SQLRepository/<GetCustomerReviews>d__7::MoveNext()": {
+          "Lines": {
+            "163": 0,
+            "164": 0,
+            "166": 0,
+            "167": 0,
+            "169": 0,
+            "171": 0,
+            "173": 0,
+            "175": 0,
+            "178": 0,
+            "179": 0,
+            "180": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "185": 0,
+            "187": 0,
+            "189": 0,
+            "190": 0
+          },
+          "Branches": [
+            {
+              "Line": 178,
+              "Offset": 658,
+              "EndOffset": 410,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 180,
+              "Offset": 472,
+              "EndOffset": 474,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 180,
+              "Offset": 472,
+              "EndOffset": 488,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 178,
+              "Offset": 658,
+              "EndOffset": 663,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Project3.Data.SQLRepository/<GetJewelry>d__5": {
+        "System.Void Project3.Data.SQLRepository/<GetJewelry>d__5::MoveNext()": {
+          "Lines": {
+            "110": 0,
+            "111": 0,
+            "113": 0,
+            "114": 0,
+            "116": 0,
+            "118": 0,
+            "120": 0,
+            "122": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "130": 0,
+            "132": 0,
+            "133": 0
+          },
+          "Branches": [
+            {
+              "Line": 124,
+              "Offset": 617,
+              "EndOffset": 392,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 126,
+              "Offset": 466,
+              "EndOffset": 468,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 126,
+              "Offset": 466,
+              "EndOffset": 482,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 617,
+              "EndOffset": 622,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Project3.Data.SQLRepository/<GetProductReviews>d__6": {
+        "System.Void Project3.Data.SQLRepository/<GetProductReviews>d__6::MoveNext()": {
+          "Lines": {
+            "134": 2,
+            "135": 2,
+            "137": 2,
+            "138": 2,
+            "140": 2,
+            "142": 2,
+            "144": 2,
+            "146": 2,
+            "149": 2,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "156": 2,
+            "158": 2,
+            "160": 2,
+            "161": 2
+          },
+          "Branches": [
+            {
+              "Line": 149,
+              "Offset": 658,
+              "EndOffset": 410,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 151,
+              "Offset": 472,
+              "EndOffset": 474,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 151,
+              "Offset": 472,
+              "EndOffset": 488,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 149,
+              "Offset": 658,
+              "EndOffset": 663,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "Project3.Data.SQLRepository/<ListCustomerTransaction>d__18": {
+        "System.Void Project3.Data.SQLRepository/<ListCustomerTransaction>d__18::MoveNext()": {
+          "Lines": {
+            "453": 0,
+            "454": 0,
+            "456": 0,
+            "457": 0,
+            "459": 0,
+            "460": 0,
+            "461": 0,
+            "463": 0,
+            "465": 0,
+            "467": 0,
+            "470": 0,
+            "471": 0,
+            "472": 0,
+            "473": 0,
+            "474": 0,
+            "475": 0,
+            "477": 0,
+            "479": 0,
+            "481": 0,
+            "482": 0
+          },
+          "Branches": [
+            {
+              "Line": 470,
+              "Offset": 617,
+              "EndOffset": 407,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 470,
+              "Offset": 617,
+              "EndOffset": 622,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Project3.Data.SQLRepository/<ListFilteredJewelry>d__4": {
+        "System.Void Project3.Data.SQLRepository/<ListFilteredJewelry>d__4::MoveNext()": {
+          "Lines": {
+            "60": 0,
+            "61": 0,
+            "63": 0,
+            "64": 0,
+            "66": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "93": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "103": 0,
+            "105": 0,
+            "107": 0,
+            "108": 0
+          },
+          "Branches": [
+            {
+              "Line": 70,
+              "Offset": 259,
+              "EndOffset": 261,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 70,
+              "Offset": 259,
+              "EndOffset": 279,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 72,
+              "Offset": 295,
+              "EndOffset": 297,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 72,
+              "Offset": 295,
+              "EndOffset": 321,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 76,
+              "Offset": 331,
+              "EndOffset": 333,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 76,
+              "Offset": 331,
+              "EndOffset": 357,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 80,
+              "Offset": 367,
+              "EndOffset": 369,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 80,
+              "Offset": 367,
+              "EndOffset": 393,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 86,
+              "Offset": 426,
+              "EndOffset": 428,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 86,
+              "Offset": 426,
+              "EndOffset": 458,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 89,
+              "Offset": 468,
+              "EndOffset": 470,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 89,
+              "Offset": 468,
+              "EndOffset": 500,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 96,
+              "Offset": 875,
+              "EndOffset": 653,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 96,
+              "Offset": 875,
+              "EndOffset": 880,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Project3.Data.SQLRepository/<ListJewelry>d__3": {
+        "System.Void Project3.Data.SQLRepository/<ListJewelry>d__3::MoveNext()": {
+          "Lines": {
+            "32": 1,
+            "33": 1,
+            "35": 1,
+            "36": 1,
+            "38": 1,
+            "40": 1,
+            "42": 1,
+            "45": 1,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 1,
+            "54": 1,
+            "56": 1,
+            "58": 1
+          },
+          "Branches": [
+            {
+              "Line": 45,
+              "Offset": 617,
+              "EndOffset": 374,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 448,
+              "EndOffset": 450,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 448,
+              "EndOffset": 464,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 617,
+              "EndOffset": 622,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Project3.Data.SQLRepository/<ListOrders>d__13": {
+        "System.Void Project3.Data.SQLRepository/<ListOrders>d__13::MoveNext()": {
+          "Lines": {
+            "315": 1,
+            "316": 1,
+            "318": 1,
+            "319": 1,
+            "321": 1,
+            "323": 1,
+            "325": 1,
+            "327": 1,
+            "330": 1,
+            "331": 1,
+            "332": 1,
+            "333": 1,
+            "334": 0,
+            "335": 0,
+            "337": 0,
+            "339": 0,
+            "341": 0,
+            "342": 0
+          },
+          "Branches": [
+            {
+              "Line": 330,
+              "Offset": 605,
+              "EndOffset": 407,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 330,
+              "Offset": 605,
+              "EndOffset": 610,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Project3.Data.SQLRepository/<ListTransactions>d__16": {
+        "System.Void Project3.Data.SQLRepository/<ListTransactions>d__16::MoveNext()": {
+          "Lines": {
+            "400": 2,
+            "401": 2,
+            "403": 2,
+            "404": 2,
+            "406": 2,
+            "408": 2,
+            "410": 2,
+            "413": 2,
+            "414": 0,
+            "415": 0,
+            "417": 0,
+            "418": 0,
+            "420": 2,
+            "422": 2,
+            "424": 2,
+            "426": 2
+          },
+          "Branches": [
+            {
+              "Line": 413,
+              "Offset": 572,
+              "EndOffset": 374,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 413,
+              "Offset": 572,
+              "EndOffset": 577,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "Project3.Data.SQLRepository/<LogInCustomer>d__14": {
+        "System.Void Project3.Data.SQLRepository/<LogInCustomer>d__14::MoveNext()": {
+          "Lines": {
+            "345": 0,
+            "346": 0,
+            "347": 0,
+            "348": 0,
+            "349": 0,
+            "350": 0,
+            "351": 0,
+            "353": 0,
+            "354": 0,
+            "355": 0,
+            "357": 0,
+            "359": 0,
+            "361": 0,
+            "362": 0
+          },
+          "Branches": [
+            {
+              "Line": 359,
+              "Offset": 404,
+              "EndOffset": 406,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 359,
+              "Offset": 404,
+              "EndOffset": 453,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Project3.Data.SQLRepository/<MakePurchase>d__12": {
+        "System.Void Project3.Data.SQLRepository/<MakePurchase>d__12::MoveNext()": {
+          "Lines": {
+            "295": 1,
+            "296": 1,
+            "297": 1,
+            "299": 1,
+            "300": 1,
+            "301": 1,
+            "302": 1,
+            "304": 1,
+            "306": 1,
+            "307": 1,
+            "309": 1,
+            "311": 1,
+            "313": 1,
+            "314": 1
+          },
+          "Branches": [
+            {
+              "Line": 296,
+              "Offset": 48,
+              "EndOffset": 59,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 296,
+              "Offset": 48,
+              "EndOffset": 194,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "Project3.Data.SQLRepository/<ModifyCustomerProfile>d__10": {
+        "System.Void Project3.Data.SQLRepository/<ModifyCustomerProfile>d__10::MoveNext()": {
+          "Lines": {
+            "237": 0,
+            "238": 0,
+            "239": 0,
+            "241": 0,
+            "243": 0,
+            "245": 0,
+            "246": 0,
+            "247": 0,
+            "249": 0,
+            "251": 0,
+            "253": 0,
+            "254": 0
+          },
+          "Branches": [
+            {
+              "Line": 238,
+              "Offset": 48,
+              "EndOffset": 59,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 238,
+              "Offset": 48,
+              "EndOffset": 194,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Project3.Data.SQLRepository/<RegisterCustomer>d__15": {
+        "System.Void Project3.Data.SQLRepository/<RegisterCustomer>d__15::MoveNext()": {
+          "Lines": {
+            "365": 0,
+            "366": 0,
+            "367": 0,
+            "368": 0,
+            "369": 0,
+            "370": 0,
+            "371": 0,
+            "372": 0,
+            "373": 0,
+            "374": 0,
+            "376": 0,
+            "377": 0,
+            "378": 0,
+            "379": 0,
+            "380": 0,
+            "381": 0,
+            "383": 0,
+            "384": 0,
+            "385": 0,
+            "386": 0,
+            "388": 0,
+            "390": 0,
+            "391": 0,
+            "392": 0,
+            "394": 0,
+            "396": 0,
+            "398": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Project3.dll": {
+    "C:\\Users\\Feihcetile\\Desktop\\Revature\\220705-UTA-NET\\Team7P2\\server\\Project3\\Program.cs": {
+      "Program": {
+        "System.Void Program::<Main>$(System.String[])": {
+          "Lines": {
+            "8": 13,
+            "12": 13,
+            "14": 13,
+            "15": 13,
+            "16": 13,
+            "19": 13,
+            "20": 13,
+            "21": 13,
+            "22": 13,
+            "23": 13,
+            "24": 13,
+            "25": 13,
+            "26": 13,
+            "27": 13,
+            "28": 13,
+            "29": 13,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 13,
+            "34": 13,
+            "35": 13,
+            "36": 13,
+            "37": 13,
+            "38": 13,
+            "39": 13,
+            "40": 13,
+            "41": 13,
+            "42": 13,
+            "43": 26,
+            "46": 25,
+            "47": 13,
+            "50": 13,
+            "51": 13,
+            "52": 13,
+            "53": 13,
+            "54": 13,
+            "56": 13,
+            "58": 13,
+            "59": 13,
+            "61": 13,
+            "63": 13
+          },
+          "Branches": [
+            {
+              "Line": 50,
+              "Offset": 169,
+              "EndOffset": 171,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 13
+            },
+            {
+              "Line": 50,
+              "Offset": 169,
+              "EndOffset": 189,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 13
+            },
+            {
+              "Line": 29,
+              "Offset": 24,
+              "EndOffset": 26,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 24,
+              "EndOffset": 61,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 13
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\Feihcetile\\Desktop\\Revature\\220705-UTA-NET\\Team7P2\\server\\Project3\\Controllers\\CustomerController.cs": {
+      "Project3.Controllers.CustomerController": {
+        "System.Void Project3.Controllers.CustomerController::.ctor(Microsoft.Extensions.Logging.ILogger`1<Project3.Controllers.CustomerController>,Project3.Data.IRepository)": {
+          "Lines": {
+            "19": 2,
+            "20": 2,
+            "21": 2,
+            "22": 2,
+            "23": 2
+          },
+          "Branches": []
+        }
+      },
+      "Project3.Controllers.CustomerController/<AddCustomer>d__5": {
+        "System.Void Project3.Controllers.CustomerController/<AddCustomer>d__5::MoveNext()": {
+          "Lines": {
+            "62": 1,
+            "64": 1,
+            "65": 1,
+            "66": 1,
+            "67": 1,
+            "69": 1,
+            "70": 0,
+            "71": 0,
+            "73": 1,
+            "74": 1,
+            "75": 1,
+            "76": 1,
+            "78": 1
+          },
+          "Branches": []
+        }
+      },
+      "Project3.Controllers.CustomerController/<GetCustomer>d__3": {
+        "System.Void Project3.Controllers.CustomerController/<GetCustomer>d__3::MoveNext()": {
+          "Lines": {
+            "27": 1,
+            "31": 1,
+            "32": 1,
+            "33": 1,
+            "34": 1,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "41": 1,
+            "42": 1
+          },
+          "Branches": []
+        }
+      },
+      "Project3.Controllers.CustomerController/<ModifyCustomerProfile>d__4": {
+        "System.Void Project3.Controllers.CustomerController/<ModifyCustomerProfile>d__4::MoveNext()": {
+          "Lines": {
+            "46": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "58": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Feihcetile\\Desktop\\Revature\\220705-UTA-NET\\Team7P2\\server\\Project3\\Controllers\\LogInController.cs": {
+      "Project3.Controllers.LogInController": {
+        "System.Void Project3.Controllers.LogInController::.ctor(Microsoft.Extensions.Logging.ILogger`1<Project3.Controllers.CustomerController>,Project3.Data.IRepository)": {
+          "Lines": {
+            "22": 1,
+            "23": 1,
+            "24": 1,
+            "25": 1,
+            "26": 1
+          },
+          "Branches": []
+        }
+      },
+      "Project3.Controllers.LogInController/<LogIn>d__3": {
+        "System.Void Project3.Controllers.LogInController/<LogIn>d__3::MoveNext()": {
+          "Lines": {
+            "30": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "37": 0,
+            "38": 0,
+            "40": 0,
+            "42": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "72": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "86": 0
+          },
+          "Branches": [
+            {
+              "Line": 44,
+              "Offset": 304,
+              "EndOffset": 309,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 68,
+              "Offset": 644,
+              "EndOffset": 646,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 68,
+              "Offset": 644,
+              "EndOffset": 652,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 69,
+              "Offset": 681,
+              "EndOffset": 683,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 69,
+              "Offset": 681,
+              "EndOffset": 689,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 44,
+              "Offset": 304,
+              "EndOffset": 712,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Project3.Controllers.LogInController/<Register>d__4": {
+        "System.Void Project3.Controllers.LogInController/<Register>d__4::MoveNext()": {
+          "Lines": {
+            "90": 1,
+            "93": 1,
+            "94": 1,
+            "95": 1,
+            "97": 1,
+            "98": 1,
+            "100": 1,
+            "102": 1,
+            "103": 1,
+            "105": 1,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "134": 0,
+            "137": 1,
+            "138": 1,
+            "139": 1,
+            "140": 1,
+            "142": 1
+          },
+          "Branches": [
+            {
+              "Line": 130,
+              "Offset": 871,
+              "EndOffset": 873,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 130,
+              "Offset": 871,
+              "EndOffset": 879,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 131,
+              "Offset": 908,
+              "EndOffset": 910,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 131,
+              "Offset": 908,
+              "EndOffset": 916,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\Feihcetile\\Desktop\\Revature\\220705-UTA-NET\\Team7P2\\server\\Project3\\Controllers\\OrdersController.cs": {
+      "Project3.Controllers.OrdersController": {
+        "System.Void Project3.Controllers.OrdersController::.ctor(Microsoft.Extensions.Logging.ILogger`1<Project3.Controllers.OrdersController>,Project3.Data.IRepository)": {
+          "Lines": {
+            "17": 2,
+            "18": 2,
+            "19": 2,
+            "20": 2,
+            "21": 2
+          },
+          "Branches": []
+        }
+      },
+      "Project3.Controllers.OrdersController/<ListOrders>d__3": {
+        "System.Void Project3.Controllers.OrdersController/<ListOrders>d__3::MoveNext()": {
+          "Lines": {
+            "25": 1,
+            "29": 1,
+            "31": 1,
+            "32": 0,
+            "33": 1,
+            "34": 1,
+            "36": 1,
+            "37": 1,
+            "40": 0,
+            "41": 1
+          },
+          "Branches": []
+        }
+      },
+      "Project3.Controllers.OrdersController/<MakePurchase>d__4": {
+        "System.Void Project3.Controllers.OrdersController/<MakePurchase>d__4::MoveNext()": {
+          "Lines": {
+            "45": 1,
+            "47": 1,
+            "48": 1,
+            "49": 1,
+            "50": 1,
+            "51": 0,
+            "52": 0,
+            "54": 0,
+            "55": 0,
+            "57": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Feihcetile\\Desktop\\Revature\\220705-UTA-NET\\Team7P2\\server\\Project3\\Controllers\\ReviewController.cs": {
+      "Project3.Controllers.ReviewController": {
+        "System.Void Project3.Controllers.ReviewController::.ctor(Microsoft.Extensions.Logging.ILogger`1<Project3.Controllers.ReviewController>,Project3.Data.IRepository)": {
+          "Lines": {
+            "18": 3,
+            "19": 3,
+            "20": 3,
+            "21": 3,
+            "22": 3
+          },
+          "Branches": []
+        }
+      },
+      "Project3.Controllers.ReviewController/<AddReview>d__5": {
+        "System.Void Project3.Controllers.ReviewController/<AddReview>d__5::MoveNext()": {
+          "Lines": {
+            "58": 1,
+            "60": 1,
+            "61": 1,
+            "62": 1,
+            "63": 1,
+            "65": 1,
+            "66": 0,
+            "67": 0,
+            "69": 1,
+            "70": 1,
+            "71": 1,
+            "72": 1,
+            "74": 1
+          },
+          "Branches": []
+        }
+      },
+      "Project3.Controllers.ReviewController/<GetCustomerReviews>d__4": {
+        "System.Void Project3.Controllers.ReviewController/<GetCustomerReviews>d__4::MoveNext()": {
+          "Lines": {
+            "42": 1,
+            "43": 1,
+            "45": 1,
+            "46": 1,
+            "47": 1,
+            "48": 1,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "53": 1,
+            "54": 1
+          },
+          "Branches": []
+        }
+      },
+      "Project3.Controllers.ReviewController/<GetProductReviews>d__3": {
+        "System.Void Project3.Controllers.ReviewController/<GetProductReviews>d__3::MoveNext()": {
+          "Lines": {
+            "26": 1,
+            "27": 1,
+            "29": 1,
+            "30": 1,
+            "31": 1,
+            "32": 1,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "37": 1,
+            "38": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Feihcetile\\Desktop\\Revature\\220705-UTA-NET\\Team7P2\\server\\Project3\\Controllers\\StoreController.cs": {
+      "Project3.Controllers.StoreController": {
+        "System.Void Project3.Controllers.StoreController::.ctor(Microsoft.Extensions.Logging.ILogger`1<Project3.Controllers.StoreController>,Project3.Data.IRepository)": {
+          "Lines": {
+            "17": 1,
+            "18": 1,
+            "19": 1,
+            "20": 1,
+            "21": 1
+          },
+          "Branches": []
+        }
+      },
+      "Project3.Controllers.StoreController/<GetJewelryList>d__3": {
+        "System.Void Project3.Controllers.StoreController/<GetJewelryList>d__3::MoveNext()": {
+          "Lines": {
+            "25": 1,
+            "26": 1,
+            "28": 1,
+            "29": 1,
+            "30": 1,
+            "31": 1,
+            "32": 0,
+            "34": 0,
+            "35": 0,
+            "37": 1,
+            "38": 1
+          },
+          "Branches": []
+        }
+      },
+      "Project3.Controllers.StoreController/<GetJewelryList>d__4": {
+        "System.Void Project3.Controllers.StoreController/<GetJewelryList>d__4::MoveNext()": {
+          "Lines": {
+            "42": 0,
+            "43": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "54": 0,
+            "55": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Feihcetile\\Desktop\\Revature\\220705-UTA-NET\\Team7P2\\server\\Project3\\Controllers\\TransactionController.cs": {
+      "Project3.Controllers.TransactionController": {
+        "System.Void Project3.Controllers.TransactionController::.ctor(Microsoft.Extensions.Logging.ILogger`1<Project3.Controllers.CustomerController>,Project3.Data.IRepository)": {
+          "Lines": {
+            "18": 3,
+            "19": 3,
+            "20": 3,
+            "21": 3,
+            "22": 3
+          },
+          "Branches": []
+        }
+      },
+      "Project3.Controllers.TransactionController/<AddTransaction>d__5": {
+        "System.Void Project3.Controllers.TransactionController/<AddTransaction>d__5::MoveNext()": {
+          "Lines": {
+            "59": 1,
+            "61": 1,
+            "62": 1,
+            "63": 0,
+            "64": 0,
+            "66": 1,
+            "67": 1,
+            "68": 1,
+            "69": 1,
+            "71": 1
+          },
+          "Branches": []
+        }
+      },
+      "Project3.Controllers.TransactionController/<ListCustomerTransactions>d__3": {
+        "System.Void Project3.Controllers.TransactionController/<ListCustomerTransactions>d__3::MoveNext()": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0
+          },
+          "Branches": []
+        }
+      },
+      "Project3.Controllers.TransactionController/<ListTransactions>d__4": {
+        "System.Void Project3.Controllers.TransactionController/<ListTransactions>d__4::MoveNext()": {
+          "Lines": {
+            "41": 2,
+            "42": 2,
+            "45": 2,
+            "46": 2,
+            "47": 2,
+            "49": 2,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "54": 2,
+            "55": 2
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Project3.Model.dll": {
+    "C:\\Users\\Feihcetile\\Desktop\\Revature\\220705-UTA-NET\\Team7P2\\server\\Project3.Model\\Customer.cs": {
+      "Project3.Model.Customer": {
+        "System.Int32 Project3.Model.Customer::get_id()": {
+          "Lines": {
+            "14": 2
+          },
+          "Branches": []
+        },
+        "System.String Project3.Model.Customer::get_name()": {
+          "Lines": {
+            "16": 2
+          },
+          "Branches": []
+        },
+        "System.String Project3.Model.Customer::get_shipping_address()": {
+          "Lines": {
+            "18": 2
+          },
+          "Branches": []
+        },
+        "System.Void Project3.Model.Customer::.ctor()": {
+          "Lines": {
+            "20": 3
+          },
+          "Branches": []
+        },
+        "System.Void Project3.Model.Customer::.ctor(System.Int32,System.String,System.String)": {
+          "Lines": {
+            "22": 1,
+            "23": 1,
+            "24": 1,
+            "25": 1,
+            "26": 1,
+            "27": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Feihcetile\\Desktop\\Revature\\220705-UTA-NET\\Team7P2\\server\\Project3.Model\\Item.cs": {
+      "Project3.Model.Item": {
+        "System.Int32 Project3.Model.Item::get_OrderId()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime Project3.Model.Item::get_order_date()": {
+          "Lines": {
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Project3.Model.Item::get_id()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.String Project3.Model.Item::get_name()": {
+          "Lines": {
+            "27": 0
+          },
+          "Branches": []
+        },
+        "System.Double Project3.Model.Item::get_price()": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project3.Model.Item::.ctor()": {
+          "Lines": {
+            "32": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project3.Model.Item::.ctor(System.Int32,System.DateTime,System.Int32,System.String,System.Double)": {
+          "Lines": {
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Feihcetile\\Desktop\\Revature\\220705-UTA-NET\\Team7P2\\server\\Project3.Model\\Jewelry.cs": {
+      "Project3.Model.Jewelry": {
+        "System.Int32 Project3.Model.Jewelry::get_id()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.String Project3.Model.Jewelry::get_name()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Double Project3.Model.Jewelry::get_price()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.String Project3.Model.Jewelry::get_material()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.String Project3.Model.Jewelry::get_type()": {
+          "Lines": {
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.String Project3.Model.Jewelry::get_imgURL()": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project3.Model.Jewelry::.ctor()": {
+          "Lines": {
+            "31": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project3.Model.Jewelry::.ctor(System.Int32,System.String,System.Double,System.String,System.String,System.String)": {
+          "Lines": {
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Feihcetile\\Desktop\\Revature\\220705-UTA-NET\\Team7P2\\server\\Project3.Model\\Jewelry_transaction.cs": {
+      "Project3.Model.Jewelry_transaction": {
+        "System.Int32 Project3.Model.Jewelry_transaction::get_id()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Project3.Model.Jewelry_transaction::get_customer_id()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Project3.Model.Jewelry_transaction::get_order_id()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Project3.Model.Jewelry_transaction::get_Item_id()": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project3.Model.Jewelry_transaction::Add(Project3.Model.Jewelry_transaction)": {
+          "Lines": {
+            "41": 0,
+            "42": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project3.Model.Jewelry_transaction::.ctor()": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project3.Model.Jewelry_transaction::.ctor(System.Int32,System.Int32,System.Int32,System.Int32)": {
+          "Lines": {
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Feihcetile\\Desktop\\Revature\\220705-UTA-NET\\Team7P2\\server\\Project3.Model\\Order.cs": {
+      "Project3.Model.Order": {
+        "System.Int32 Project3.Model.Order::get_id()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Project3.Model.Order::get_customer_id()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime Project3.Model.Order::get_order_date()": {
+          "Lines": {
+            "23": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project3.Model.Order::.ctor()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project3.Model.Order::.ctor(System.Int32,System.Int32,System.Int32,System.DateTime)": {
+          "Lines": {
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Feihcetile\\Desktop\\Revature\\220705-UTA-NET\\Team7P2\\server\\Project3.Model\\Review.cs": {
+      "Project3.Model.Review": {
+        "System.Int32 Project3.Model.Review::get_id()": {
+          "Lines": {
+            "18": 3
+          },
+          "Branches": []
+        },
+        "System.Int32 Project3.Model.Review::get_customer_id()": {
+          "Lines": {
+            "20": 4
+          },
+          "Branches": []
+        },
+        "System.Int32 Project3.Model.Review::get_jewelry_id()": {
+          "Lines": {
+            "22": 4
+          },
+          "Branches": []
+        },
+        "System.DateTime Project3.Model.Review::get_review_date()": {
+          "Lines": {
+            "24": 4
+          },
+          "Branches": []
+        },
+        "System.String Project3.Model.Review::get_content()": {
+          "Lines": {
+            "26": 4
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Byte> Project3.Model.Review::get_rating()": {
+          "Lines": {
+            "28": 4
+          },
+          "Branches": []
+        },
+        "System.Void Project3.Model.Review::.ctor()": {
+          "Lines": {
+            "31": 3
+          },
+          "Branches": []
+        },
+        "System.Void Project3.Model.Review::.ctor(System.Int32,System.Int32,System.Int32,System.DateTime,System.String,System.Nullable`1<System.Byte>)": {
+          "Lines": {
+            "33": 1,
+            "34": 1,
+            "35": 1,
+            "36": 1,
+            "37": 1,
+            "38": 1,
+            "39": 1,
+            "40": 1,
+            "41": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+<section class="modal-background" [ngClass]="{'display-modal': profileModalToggle}">
+    <div class="modal">
+        <img src="/assets/images/login/x-solid.svg" alt="close-icon" class="close-icon" (click)="toggleProfileModal()">
+
+        <h4 class="user-name">{{userProfile}}</h4>
+        <button type="button" class="btn-order-history" (click)="viewOrderHistory(); toggleViewOrderDisplay()">View Order History</button>
+
+        <div [ngClass]="{'display-view-order': displayViewOrder}" class="view-order" *ngFor="let order of orderHistory">
+            <h5>{{order.name}}</h5>
+            <p>${{order.price}}</p>
+            <p>{{order.order_date.slice(0, 10)}}</p>
+        </div>
+
+        <button type="button" class="btn-logout" (click)="logout()">Logout</button>
+    </div>
+</section>

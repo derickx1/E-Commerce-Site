@@ -1,0 +1,10 @@
+<div class="landing-page-background">
+    <main class="container-login">
+        <h1>All That Glitters is Gold</h1>
+        <div class="title-divider"></div>
+        <p>Find the perfect piece to flaunt who you are</p>
+        <app-login-form></app-login-form>
+        <button type="button" (click)="toggleCreationModal()" class="btn-create-new">New? Create an account</button>
+    </main>
+    <app-new-user [creationModal]="creationModal"></app-new-user>
+</div>

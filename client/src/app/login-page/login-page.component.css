@@ -1,0 +1,57 @@
+.landing-page-background {
+    background-color: rgb(45, 45, 45);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container-login {
+    margin: 5rem auto auto;
+    width: 40%;
+    background-color: white;
+    padding: 2rem 2rem 3rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 0 goldenrod;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-login h1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 2.5rem;
+    color: goldenrod;
+    font-weight: 900;
+}
+
+.container-login p {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.15rem;
+    margin-bottom: 1rem;
+}
+
+.title-divider {
+    background-color: rgb(122, 121, 121);
+    height: 1px;
+    width: 50%;
+    margin: auto;
+}
+
+.btn-create-new {
+    transition: linear all 0.2s;
+    background-color: transparent;
+    color: goldenrod;
+    font-weight: 900;
+    border: none;
+    margin: 2rem auto 0 auto;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn-create-new:hover {
+    transition: linear all 0.2s;
+    color: rgb(43, 42, 42);
+}

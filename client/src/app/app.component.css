@@ -1,0 +1,5 @@
+/* required to remove the default margin from the body of index */
+::ng-deep * {  
+    margin: 0;
+    padding: 0;
+  }

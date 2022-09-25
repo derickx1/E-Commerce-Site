@@ -1,0 +1,79 @@
+/* user profile modal */
+.modal-background {
+    display: none;
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(45, 45, 45, 0.6);
+}
+
+.display-modal {
+    display: block;
+}
+
+.modal {
+    margin: 4rem 25px auto auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    text-align: center;
+    border-radius: 5px;
+    gap: 0.5rem;
+}
+
+.modal button {
+    transition: linear all 0.2s;
+    width: 50%;
+    border: none;
+    cursor: pointer;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.modal button:hover {
+    transition: linear all 0.2s;
+    opacity: 0.7;
+}
+
+button {
+    color: white;
+}
+
+.btn-order-history {
+    background-color: goldenrod;
+}
+
+.btn-logout {
+    background-color: rgb(255, 61, 61);
+}
+
+.close-icon {
+    right: 30px;
+    margin-top: 2px;
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    position: absolute;
+    cursor: pointer;
+    filter: invert(77%) sepia(87%) saturate(1460%) hue-rotate(345deg) brightness(90%) contrast(88%);
+}
+
+.view-order {
+    display: none;
+    max-height: 3rem;
+    text-align: center;
+    margin: auto;
+    gap: 10px;
+    border-bottom: 1px solid goldenrod;
+}
+
+.display-view-order {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}

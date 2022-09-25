@@ -1,0 +1,65 @@
+/* left-side filters */
+.container-filters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.container-filters h2 {
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 3rem;
+}
+
+.container-filters h3 {
+    font-size: 1.25rem;
+    color: goldenrod;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid goldenrod;
+}
+
+.container-filters p {
+    transition: linear all 0.1s;
+    cursor: pointer;
+    color: white;
+    font-size: 1.15rem;
+    padding: 0.5rem;
+}
+
+.container-filters p:hover {
+    transition: linear all 0.1s;
+    transform: translateX(5px);
+}
+
+.container-filters p.active-filter {
+    color: rgb(255, 183, 0);
+    font-weight: 900;
+    transform: translateX(50px);
+}
+
+.container-type {
+    margin-top: 1rem;
+}
+
+.btn-reset {
+    transition: linear all 0.2s;
+    background-color: goldenrod;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.15rem;
+    cursor: pointer;
+}
+
+.btn-reset:hover {
+    transition: linear all 0.2s;
+    transform: scale(1.1);
+}
+
+.btn-reset:active {
+    transition: linear all 0.2s;
+    transform: scale(0.95);
+}
